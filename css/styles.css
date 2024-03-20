@@ -528,3 +528,51 @@ img {
 .footter-href:focus {
     background-color: #31d0aa;
 }
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    background-color: rgba(30, 24, 35, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    position: absolute;
+    width: 408px;
+    min-height: 584px;
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+}
+
+.modal-close {
+    display: block;
+    margin-left: auto;
+}
+
+.div-iconss {
+    border-radius: 100%;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    fill: #e7e9fc;
+}
+
+.backdrop-text {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    padding-top: 24px;
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+
