@@ -581,7 +581,52 @@
                </div>
             </button>
             <p class="backdrop-text">Leave your contacts and we will call you back</p>
-            <form></form>
+            <form class="modal-form">
+                <label for="user-name" class="modal-label">Name</label>
+                <div class="modal-input-wrap">
+                    <input 
+                      type="text" 
+                      class="modal-input" 
+                      name="user-name" 
+                      id="user-name"
+                    />
+                    <svg class="modal-icon" width="18" heigh="18">
+                        <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+                <label for="user-phone" class="modal-label">Phone</label>
+                <div class="modal-input-wrap">
+                    <input 
+                      type="tel" 
+                      class="modal-input" 
+                      name="user-phone" 
+                      id="user-phone"
+                    />
+                    <svg class="modal-icon" width="18" heigh="18">
+                        <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+                <label for="user-email" class="modal-label">Email</label>
+                <div class="modal-input-wrap">
+                    <input 
+                      type="email" 
+                      class="modal-input" 
+                      name="user-email" 
+                      id="user-email"
+                    />
+                    <svg class="modal-icon" width="18" heigh="18">
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+                </div>
+                <label for="user-comment" class="modal-label">Comment</label>
+                <textarea 
+                   name="user-comment" 
+                   id="user-comment"
+                   placeholder="Text input"
+                   class="modal-text"
+                   ></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
 
