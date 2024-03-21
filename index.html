@@ -618,14 +618,26 @@
                         <use href="./images/icons.svg#icon-email-black"></use>
                     </svg>
                 </div>
-                <label for="user-comment" class="modal-label">Comment</label>
-                <textarea 
-                   name="user-comment" 
-                   id="user-comment"
-                   placeholder="Text input"
-                   class="modal-text"
-                   ></textarea>
-                <button type="submit">Send</button>
+                <div class="footter-textarea">
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea 
+                       name="user-comment" 
+                       id="user-comment"
+                       placeholder="Text input"
+                       class="modal-text"
+                       ></textarea>
+                </div>
+                <div class="modal-field">
+                    <input class="modal-check" type="checkbox" name="privacy" id="privacy" required/>
+                    <label class="check-text" for="privacy">
+                         <span class="span-check-icon">
+                            <svg class="modal-check-icon" width="10" height="8" >
+                                <use href="./images/icons.svg#icon-galochka"></use>
+                            </svg>
+                         </span>
+                         I accept the terms and conditions of the <a class="check-link" href="">Privacy Policy</a></label>
+                </div>
+               <div class="div-footter-button"> <button class="footter-button" type="submit">Send</button></div>
             </form>
         </div>
     </div>
