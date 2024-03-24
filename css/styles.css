@@ -533,7 +533,15 @@ img {
     margin-right: 80px;
 }
 
-.footter-form-input {
+.footter-subscribe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 120px;
+    flex-direction: column;
+}
+
+.footter-form {
     display: flex;
     gap: 24px;
 }
