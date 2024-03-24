@@ -435,6 +435,7 @@ img {
 .footter {
     background: #2e2f42;
     padding: 100px 0;
+    display: flex;
 
 }
 
@@ -479,13 +480,12 @@ img {
 
 
 .social-media {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
 
 }
 
@@ -530,15 +530,11 @@ img {
 }
 
 .footter-end {
-    margin-right: 80px;
+    
 }
 
 .footter-subscribe {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    margin-left: 120px;
-    flex-direction: column;
+margin-left: 80px;
 }
 
 .footter-form {
@@ -547,11 +543,12 @@ img {
 }
 
 .footter-form-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
 }
 
 .footter-input {
@@ -572,19 +569,24 @@ img {
 }
 
 .footter-form-btn {
-    border-radius: 4px;
+    display: flex;
     padding: 8px 24px;
-    background: #4d5ae5;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #fff;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footter-soc-icon {
